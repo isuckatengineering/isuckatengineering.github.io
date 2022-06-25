@@ -1,0 +1,71 @@
+/* this is a comment in CSS */
+
+/*
+https://www.educative.io/answers/class-and-id-selectors-in-css
+*/
+
+/* 
+Selectors: class and id
+
+Class represented by a . 
+id represented by #
+*/
+
+html{
+	background-color: Gainsboro;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell
+}
+
+
+/* Here is the navigation bar that is at the top of the page*/
+.navbar{
+	display: grid;
+	grid-template-columns: auto auto;
+	border-bottom: 1px solid black;
+	position: fixed;
+	top: 0;
+	width: 97%;
+	background-color: white;
+}
+
+
+/*This aligns the text to the right of the page*/
+.text-right{
+	text-align: right;
+}
+/* Here we are just changing the size of the picture*/
+.james-photo{
+	width: 300px;
+	height: 300px;
+}
+
+#greetings{
+	color: darkblue;
+}
+
+.major-box{
+	padding: 30px;
+	border: 1px solid black;
+	background-color: white;
+}
+
+/*Display will set it as a grid. The grid-template-column with two autos will set 2 columns*/
+/*Apply this to the div that encloses all of them, it will apply to the two div classes below*/
+.grid-0{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+/*This will add padding / spacing between the two boxes we just made*/
+.box-0{
+	padding-right: 10px;	
+}
+
+/*This class will center the picture and text*/
+.intro{
+	text-align: center;
+}
+
+.new-color{
+	background-color: white;
+}
